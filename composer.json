@@ -1,6 +1,6 @@
 {
-  "name": "authing-sdk/php",
-  "description": "authing-php-sdk",
+  "name": "shubuzuo-sdk/php",
+  "description": "shubuzuo-php-sdk",
   "minimum-stability": "stable",
   "version": "4.1.1",
   "require": {
