@@ -1,0 +1,34 @@
+{
+  "name": "authing-sdk/php",
+  "description": "authing-php-sdk",
+  "minimum-stability": "stable",
+  "version": "4.1.1",
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "authing",
+      "email": "sunxu@authing.cn"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/Types/CodeGen.v2.php"
+    ],
+    "classmap": [
+      "src/Types/CodeGen.v2.php"
+    ],
+    "psr-4": {
+      "Authing\\": "src/"
+    }
+  }
+}

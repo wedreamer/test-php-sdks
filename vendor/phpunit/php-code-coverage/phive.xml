@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# Set the textdomain for the translations using $"..."
+TEXTDOMAIN="apt"
+
+# Get the configuration from /etc/apt/apt.conf
+CLEAN="prompt"
+OPTS=""
+APTGET="/usr/bin/apt-get"
+APTCAC
