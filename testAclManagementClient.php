@@ -11,7 +11,7 @@ use Authing\Types\PolicyAssignmentTargetType;
 
 $authentication = new ManagementClient('5f88506c81cd279930195660', 'f6bbab3309f021639c6b04d6e54133cd');
 
-$authentication->requestToken();
+$authentication->requestToken( );
 
 
 $aclManagementClient = new AclManagementClient($authentication);
