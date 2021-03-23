@@ -2,7 +2,7 @@
   "name": "shubuzuo-sdk/php",
   "description": "shubuzuo-php-sdk",
   "minimum-stability": "stable",
-  "version": "4.1.1",
+  "version": "0.0.1",
   "require": {
     "php": ">=5.4",
     "ext-curl": "*",
